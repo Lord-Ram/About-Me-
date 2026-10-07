@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .hero {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #00bcd4, #3f51b5);
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            background-color: white;
+            color: #3f51b5;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #eee;
+        }
+
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h1>My Website</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero">
+        <h2>Welcome to My Website</h2>
+        <p>Discover My website and learn more about what I have done so far.</p>
+        <a href="about.html" class="button">Learn More</a>
+    </section>
+
+    <!-- Main Content -->
+    <section class="content">
+        <h2>Welcome!</h2>
+        <p>
+            This is the homepage of my website. Use the navigation links
+            above to explore different Certifications .
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
